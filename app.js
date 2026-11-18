@@ -11,18 +11,18 @@ const T = {
     nav_hoy:'Hoy', nav_anuncios:'Anuncios', nav_region:'Mi región', nav_videos:'Videos', nav_peticion:'Petición', actualizar:'Actualizar',
     hero_titulo:'Milagro Week: seguimiento al 100 %',
     hero_sub:'Nueva York, 16 al 18 de noviembre de 2026. Aquí anotamos cada anuncio, separamos el crédito de la inversión y seguimos cada peso hasta que se vuelva obra en Colombia.',
-    m_anunciado:'Anunciado por el Gobierno', m_anunciado_n:'titular oficial al 17 de noviembre', m_suma_n:'suma de los {n} anuncios con monto conocido', m_meta:'Lo que se fue a buscar',
+    m_anunciado:'Anunciado por el Gobierno', m_anunciado_n:'balance oficial de cierre, 18 de noviembre', m_suma_n:'suma de los {n} anuncios con monto conocido', m_meta:'Lo que se fue a buscar',
     m_credito:'De eso, préstamos de la banca multilateral', m_firmado:'Firmado y verificado hasta hoy',
     ley_cred:'Crédito multilateral', ley_priv:'Anuncios de empresas', ley_falta:'Falta frente a la meta',
     hoy_t:'Hoy', hoy_i:'Lo último que se publicó sobre la Milagro Week. Se actualiza cada vez que usted entra y el robot trae noticias nuevas cada 30 minutos.',
     buscar_ph:'Buscar en vivo: Avianca, Cerro Matoso, Antioquia…', buscar:'Buscar',
     emb_t:'Anunciar no es invertir', emb_i:'Una campanada en Nueva York es una promesa. La seguimos por cuatro pasos. Cuando un anuncio sube de paso, lo cambiamos aquí con la fuente.',
     an_t:'Los campanazos, uno por uno',
-    an_aviso:'Al corte del martes, el Vicepresidente habló de 17 campanazos y de más de US$35.500 M. Con los anuncios de la noche (Addi y el sector farmacéutico), la suma de los que tienen monto ya va en US$37.350 M. Más de la mitad son préstamos o recursos condicionados. Falta el balance oficial de cierre.',
+    an_aviso:'El balance de cierre habla de hasta US$43.205 M en 11 sectores y 24 departamentos, con 55.000 empleos proyectados. De eso, US$21.400 M son préstamos de la banca multilateral a cuatro años y varios anuncios dependen de licencias. Nada está firmado y verificado todavía.',
     ci_t:'Cómo cambió la cifra', ci_i:'El tamaño del portafolio cambió varias veces antes del evento. Cada número, con su fuente.',
     ag_t:'Día por día en Nueva York',
     re_t:'¿Y a nuestra región qué le toca?', re_i:'Antioquia, Córdoba y el Bajo Cauca. Lo que se anunció con nombre propio y lo que todavía no aparece.',
-    bajo_txt:'Ningún anuncio de la Milagro Week nombra a Caucasia, El Bagre, Zaragoza, Cáceres, Tarazá o Nechí. Contamos cada noticia que mencione la subregión.',
+    bajo_txt:'Ningún anuncio nombra a Caucasia, El Bagre, Zaragoza, Cáceres, Tarazá o Nechí. Mineros S.A., que opera en El Bagre y Nechí, anunció US$600 M pero no dijo dónde. Lo preguntamos en la petición.',
     bajo_si:'Ya hay noticias de la Milagro Week que mencionan al Bajo Cauca. Revíselas abajo en "Todas las noticias" buscando "Bajo Cauca".',
     bajo_menc:'noticias que mencionan al Bajo Cauca',
     vi_t:'Videos reales', vi_i:'Lo que se dijo en Nueva York, en video. El robot busca videos nuevos cada 30 minutos.',
@@ -51,18 +51,18 @@ const T = {
     nav_hoy:'Today', nav_anuncios:'Announcements', nav_region:'My region', nav_videos:'Videos', nav_peticion:'Petition', actualizar:'Refresh',
     hero_titulo:'Milagro Week: 100% tracking',
     hero_sub:'New York, November 16–18, 2026. We log every announcement, separate loans from investment and follow each dollar until it becomes real work in Colombia.',
-    m_anunciado:'Announced by the government', m_anunciado_n:'official headline as of November 17', m_suma_n:'sum of the {n} announcements with a known amount', m_meta:'What they went looking for',
+    m_anunciado:'Announced by the government', m_anunciado_n:'official closing tally, November 18', m_suma_n:'sum of the {n} announcements with a known amount', m_meta:'What they went looking for',
     m_credito:'Of that, multilateral bank loans', m_firmado:'Signed and verified so far',
     ley_cred:'Multilateral credit', ley_priv:'Company announcements', ley_falta:'Gap to target',
     hoy_t:'Today', hoy_i:'The latest on Milagro Week. It refreshes every time you open the app, and the robot brings new stories every 30 minutes.',
     buscar_ph:'Live search: Avianca, Cerro Matoso, Antioquia…', buscar:'Search',
     emb_t:'Announcing is not investing', emb_i:'A bell ring in New York is a promise. We track it through four steps. When an announcement moves up, we update it here with the source.',
     an_t:'Every bell ring, one by one',
-    an_aviso:'At Tuesday\'s cut-off, the Vice President spoke of 17 bell rings and over US$35.5B. With the night\'s announcements (Addi and the pharma sector), those with an amount now add up to US$37.35B. More than half are loans or conditional funds. The official closing report is still pending.',
+    an_aviso:'The closing tally cites up to US$43.2B across 11 sectors and 24 departments, with 55,000 projected jobs. Of that, US$21.4B is multilateral bank lending over four years and several announcements depend on licenses. Nothing is signed and verified yet.',
     ci_t:'How the number changed', ci_i:'The portfolio size changed several times before the event. Every figure, with its source.',
     ag_t:'Day by day in New York',
     re_t:'What does our region get?', re_i:'Antioquia, Córdoba and Bajo Cauca. What was announced by name and what has not shown up yet.',
-    bajo_txt:'No Milagro Week announcement names Caucasia, El Bagre, Zaragoza, Cáceres, Tarazá or Nechí. We count every story that mentions the subregion.',
+    bajo_txt:'No announcement names Caucasia, El Bagre, Zaragoza, Cáceres, Tarazá or Nechí. Mineros S.A., which operates in El Bagre and Nechí, announced US$600M but did not say where. We ask in the petition.',
     bajo_si:'There are now Milagro Week stories that mention Bajo Cauca. Search "Bajo Cauca" in "All news" below.',
     bajo_menc:'stories mentioning Bajo Cauca',
     vi_t:'Real videos', vi_i:'What was said in New York, on video. The robot looks for new videos every 30 minutes.',
@@ -342,7 +342,7 @@ const PREG = {
     ['¿Cuánto es préstamo y cuánto es inversión?', 'US$21.400 M de los anunciados son créditos que el Banco Mundial, el BID y la CAF prevén dar a empresas en cuatro años. No es plata nueva que entra de una vez.'],
     ['¿Qué se firmó de verdad?', 'Pedimos la lista de contratos, memorandos o cartas de intención con fecha y firma, no solo campanazos.'],
     ['¿Qué anuncios dependen de permisos?', 'Quebradona (AngloGold) depende de la licencia ambiental y Collective Mining sube a US$1.000 M solo si obtiene licencia.'],
-    ['¿Cuántos empleos y dónde?', 'Ningún anuncio trae aún una cifra de empleos por municipio. La pediremos en la petición.'],
+    ['¿Dónde quedan los 55.000 empleos?', 'El Gobierno proyecta 55.000 empleos, pero no dice cuántos por municipio. Lo pedimos en la petición.'],
     ['¿Qué pasa con los 97 proyectos que buscaban plata?', 'Seguiremos cuáles consiguieron inversionista y cuáles siguen buscando.'],
     ['¿Cuánto costó el evento?', 'Pedimos el costo del viaje, la logística y quién lo pagó: Vicepresidencia, ProColombia o aliados.'],
     ['¿Llega algo al Bajo Cauca?', 'Hasta ahora ningún anuncio nombra la subregión. Si aparece, lo contamos aquí.'],
@@ -352,7 +352,7 @@ const PREG = {
     ['How much is loans and how much is investment?', 'US$21.4B of the total is credit that the World Bank, IDB and CAF expect to lend to companies over four years. It is not new money arriving at once.'],
     ['What was actually signed?', 'We ask for the list of contracts, MoUs or letters of intent with date and signature, not just bell rings.'],
     ['Which announcements depend on permits?', 'Quebradona (AngloGold) depends on its environmental license, and Collective Mining only rises to US$1B if it gets a license.'],
-    ['How many jobs, and where?', 'No announcement yet gives job numbers by municipality. We request it in the petition.'],
+    ['Where are the 55,000 jobs?', 'The government projects 55,000 jobs but gives no breakdown by town. We request it in the petition.'],
     ['What about the 97 projects seeking money?', 'We will track which found investors and which are still looking.'],
     ['How much did the event cost?', 'We ask for the cost of the trip and logistics, and who paid: the Vice Presidency, ProColombia or partners.'],
     ['Does anything reach Bajo Cauca?', 'So far no announcement names the subregion. If one appears, we will show it here.'],
@@ -386,12 +386,12 @@ Yo, ${f.nombre || '[Nombre completo]'}, identificado(a) con cédula de ciudadan�
 
 1. La lista completa de los anuncios de inversión y financiación presentados en la Milagro Week (los "campanazos"), con nombre de la empresa o entidad, monto, sector, municipio y departamento de destino.
 2. Para cada anuncio, el documento que lo respalda (contrato, crédito aprobado, memorando de entendimiento o carta de intención), su fecha de firma y si es vinculante o no.
-3. La explicación de la diferencia entre los US$32.750 millones de los anuncios con monto público y el total de más de US$35.500 millones informado por el Gobierno al 17 de noviembre de 2026, y el balance final al cierre del evento.
+3. El desglose completo del balance de cierre de US$43.205 millones (18 de noviembre de 2026), anuncio por anuncio, y cuánto de esa cifra son créditos, cuánto inversión nueva y cuánto depende de licencias o permisos.
 4. Qué parte del total corresponde a créditos de la banca multilateral (Banco Mundial, BID, CAF) y qué parte a inversión extranjera directa nueva, y en qué plazo se desembolsaría cada una.
 5. Cuáles anuncios dependen de licencias ambientales, permisos o cambios normativos, y en qué estado está cada trámite.
 6. El número estimado de empleos directos e indirectos por proyecto y por municipio, y la metodología usada para calcularlo.
 7. La lista de los proyectos que fueron a la Milagro Week y no consiguieron inversionista, y el plan para cada uno.
-8. Si algún proyecto o anuncio beneficia a la subregión del Bajo Cauca antioqueño (Caucasia, El Bagre, Zaragoza, Cáceres, Tarazá y Nechí) o al departamento de Córdoba, y en qué consiste.
+8. Si algún proyecto o anuncio beneficia a la subregión del Bajo Cauca antioqueño (Caucasia, El Bagre, Zaragoza, Cáceres, Tarazá y Nechí) o al departamento de Córdoba, en particular si los US$600 millones anunciados por Mineros S.A. se invertirán en sus operaciones de El Bagre y Nechí, y cuáles son los 24 departamentos beneficiados.
 9. El costo total del evento (viajes, viáticos, logística, alquiler de espacios y comunicaciones), la fuente de los recursos y los contratos suscritos para su realización.
 10. El cronograma y el mecanismo público con el que el Gobierno informará periódicamente el avance de cada anuncio (firmado, desembolsado, en ejecución).
 

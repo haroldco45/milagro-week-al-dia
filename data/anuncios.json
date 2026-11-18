@@ -1,8 +1,8 @@
 {
- "actualizado": "2026-11-18T05:10:00-05:00",
- "corte": "Anuncios hasta la noche del martes 17 de noviembre de 2026. Falta el balance de cierre del miércoles 18.",
+ "actualizado": "2026-11-18T18:45:00-05:00",
+ "corte": "Balance oficial de cierre del Vicepresidente, miércoles 18 de noviembre de 2026: hasta US$43.205 M en 11 sectores, 24 departamentos y Bogotá, con 55.000 empleos proyectados.",
  "meta_buscada_musd": 41900,
- "titular_gobierno_musd": 35500,
+ "titular_gobierno_musd": 43205,
  "campanazos": 17,
  "participantes": 700,
  "proyectos_vitrina": 110,
@@ -45,6 +45,19 @@
    "note": "Same four-year horizon, for private projects."
   },
   {
+   "id": "transferport",
+   "quien": "Transferport y Grupo Ortiz",
+   "musd": 3450,
+   "tipo": "privado",
+   "sector": "Transporte",
+   "region": "Corredor La Dorada–Chiriguaná",
+   "estado": "anunciado",
+   "dia": "2026-11-18",
+   "nota": "Tren de carga en el corredor La Dorada–Chiriguaná e industria asociada.",
+   "note": "Freight rail on the La Dorada–Chiriguaná corridor plus related industry.",
+   "fuente": "https://www.larepublica.co/empresas/la-milagro-week-cierra-con-compromisos-de-inversion-por-us-43-205-millones-4527834"
+  },
+  {
    "id": "avianca",
    "quien": "Avianca",
    "musd": 3000,
@@ -55,19 +68,6 @@
    "dia": "2026-11-16",
    "nota": "Incorporar 61 aviones entre 2027 y 2029.",
    "note": "Add 61 aircraft between 2027 and 2029."
-  },
-  {
-   "id": "salud",
-   "quien": "Industria farmacéutica (anuncio de MinSalud)",
-   "musd": 2600,
-   "tipo": "privado",
-   "sector": "Salud",
-   "region": "Sin especificar",
-   "estado": "anunciado",
-   "dia": "2026-11-17",
-   "nota": "Más de US$2.600 millones anunciados por la ministra de Salud, sin desglose por empresa. Invima reduciría trámites de ensayos clínicos de 135 a 70 días.",
-   "note": "Over US$2.6B announced by the Health Minister, with no company breakdown. Invima would cut clinical-trial approval from 135 to 70 days.",
-   "fuente": "https://www.infobae.com/colombia/2026/11/18/ministra-de-salud-anuncio-inversiones-por-mas-de-us2600-millones-para-impulsar-la-industria-farmaceutica/"
   },
   {
    "id": "anglogold",
@@ -108,6 +108,19 @@
    "fuente": "https://www.larepublica.co/empresas/addi-anuncio-una-inversion-de-us-2-000-millones-durante-el-segundo-dia-de-la-milagro-week-4526841"
   },
   {
+   "id": "patria-urb",
+   "quien": "Patria Investments (renovación urbana)",
+   "musd": 1800,
+   "tipo": "privado",
+   "sector": "Renovación urbana",
+   "region": "Sin especificar",
+   "estado": "anunciado",
+   "dia": "2026-11-18",
+   "nota": "Proyectos de renovación urbana.",
+   "note": "Urban renewal projects.",
+   "fuente": "https://www.larepublica.co/empresas/la-milagro-week-cierra-con-compromisos-de-inversion-por-us-43-205-millones-4527834"
+  },
+  {
    "id": "asur",
    "quien": "Asur",
    "musd": 1500,
@@ -131,6 +144,59 @@
    "dia": "2026-11-17",
    "nota": "Generación eólica.",
    "note": "Wind power generation."
+  },
+  {
+   "id": "exito",
+   "quien": "Grupo Éxito",
+   "musd": 1000,
+   "tipo": "privado",
+   "sector": "Comercio",
+   "region": "Sin especificar",
+   "estado": "anunciado",
+   "dia": "2026-11-18",
+   "nota": "Comercio e industria.",
+   "note": "Retail and industry.",
+   "fuente": "https://www.larepublica.co/empresas/la-milagro-week-cierra-con-compromisos-de-inversion-por-us-43-205-millones-4527834"
+  },
+  {
+   "id": "mineros",
+   "quien": "Mineros S.A.",
+   "musd": 600,
+   "tipo": "privado",
+   "sector": "Minería",
+   "region": "Sin especificar",
+   "lugar": "Mineros opera en El Bagre y Nechí (Bajo Cauca); no dijo dónde invertirá",
+   "estado": "anunciado",
+   "dia": "2026-11-18",
+   "nota": "Minería responsable. La empresa opera en el Bajo Cauca, pero el anuncio no dice en qué municipio.",
+   "note": "Responsible mining. The company operates in Bajo Cauca, but the announcement does not name a town.",
+   "fuente": "https://www.larepublica.co/empresas/la-milagro-week-cierra-con-compromisos-de-inversion-por-us-43-205-millones-4527834"
+  },
+  {
+   "id": "delphi",
+   "quien": "Delphi Capital",
+   "musd": 550,
+   "tipo": "privado",
+   "sector": "Tecnología",
+   "region": "Sin especificar",
+   "estado": "anunciado",
+   "dia": "2026-11-18",
+   "nota": "Tecnología.",
+   "note": "Technology.",
+   "fuente": "https://www.larepublica.co/empresas/la-milagro-week-cierra-con-compromisos-de-inversion-por-us-43-205-millones-4527834"
+  },
+  {
+   "id": "patria-salud",
+   "quien": "Patria Investments (salud)",
+   "musd": 500,
+   "tipo": "privado",
+   "sector": "Salud",
+   "region": "Sin especificar",
+   "estado": "anunciado",
+   "dia": "2026-11-18",
+   "nota": "Aseguramiento privado y clínicas (Country, La Colina, Allianz Salud, Colmédica).",
+   "note": "Private insurance and clinics (Country, La Colina, Allianz Salud, Colmédica).",
+   "fuente": "https://www.elespectador.com/politica/alianzas-del-gobierno-de-la-espriella-con-empresas-en-la-milagro-week-las-lidera-restrepo/"
   },
   {
    "id": "plata",
@@ -157,6 +223,32 @@
    "note": "Oil palm to replace coca crops."
   },
   {
+   "id": "plasmapharm",
+   "quien": "PlasmaPharm",
+   "musd": 200,
+   "tipo": "privado",
+   "sector": "Salud",
+   "region": "Sin especificar",
+   "estado": "anunciado",
+   "dia": "2026-11-18",
+   "nota": "Industria farmacéutica.",
+   "note": "Pharmaceutical industry.",
+   "fuente": "https://www.larepublica.co/empresas/la-milagro-week-cierra-con-compromisos-de-inversion-por-us-43-205-millones-4527834"
+  },
+  {
+   "id": "lilly",
+   "quien": "Eli Lilly",
+   "musd": 200,
+   "tipo": "privado",
+   "sector": "Salud",
+   "region": "Sin especificar",
+   "estado": "anunciado",
+   "dia": "2026-11-18",
+   "nota": "Cerca de US$200 M en investigación clínica y medicamentos.",
+   "note": "About US$200M in clinical research and medicines.",
+   "fuente": "https://www.elespectador.com/politica/alianzas-del-gobierno-de-la-espriella-con-empresas-en-la-milagro-week-las-lidera-restrepo/"
+  },
+  {
    "id": "collective",
    "quien": "Collective Mining",
    "musd": 100,
@@ -167,6 +259,19 @@
    "dia": "2026-11-17",
    "nota": "US$100 millones para 2027. Hasta US$1.000 millones si obtiene la licencia.",
    "note": "US$100M for 2027. Up to US$1 billion if it gets the license."
+  },
+  {
+   "id": "riotinto",
+   "quien": "Rio Tinto",
+   "musd": 100,
+   "tipo": "privado",
+   "sector": "Minería",
+   "region": "Sin especificar",
+   "estado": "anunciado",
+   "dia": "2026-11-18",
+   "nota": "Minería responsable.",
+   "note": "Responsible mining.",
+   "fuente": "https://www.larepublica.co/empresas/la-milagro-week-cierra-con-compromisos-de-inversion-por-us-43-205-millones-4527834"
   },
   {
    "id": "maranon",
@@ -180,6 +285,19 @@
    "dia": "2026-11-17",
    "nota": "Proyecto agroforestal de marañón.",
    "note": "Cashew agroforestry project."
+  },
+  {
+   "id": "bezos",
+   "quien": "Rainforest Trust y Bezos Earth Fund",
+   "musd": 15,
+   "tipo": "privado",
+   "sector": "Conservación",
+   "region": "Sin especificar",
+   "estado": "anunciado",
+   "dia": "2026-11-18",
+   "nota": "Áreas protegidas.",
+   "note": "Protected areas.",
+   "fuente": "https://www.larepublica.co/empresas/la-milagro-week-cierra-con-compromisos-de-inversion-por-us-43-205-millones-4527834"
   },
   {
    "id": "cerromatoso",
@@ -283,6 +401,13 @@
    "en": "At night, Addi (US$2B) and the pharma sector (over US$2.6B) are added. Announcements with amounts now exceed US$37B, above the official headline.",
    "fuente": "Infobae",
    "url": "https://www.infobae.com/colombia/2026/11/18/ministra-de-salud-anuncio-inversiones-por-mas-de-us2600-millones-para-impulsar-la-industria-farmaceutica/"
+  },
+  {
+   "fecha": "2026-11-18",
+   "es": "Cierre oficial: hasta US$43.205 M en 11 sectores y 24 departamentos, con 55.000 empleos proyectados. El Gobierno dice que superó su meta inicial de US$20.000 M.",
+   "en": "Official close: up to US$43.2B across 11 sectors and 24 departments, with 55,000 projected jobs. The government says it beat its initial US$20B goal.",
+   "fuente": "La República",
+   "url": "https://www.larepublica.co/empresas/la-milagro-week-cierra-con-compromisos-de-inversion-por-us-43-205-millones-4527834"
   }
  ],
  "agenda": [
@@ -301,14 +426,8 @@
   {
    "fecha": "2026-11-18",
    "lugar": "J.P. Morgan, Nueva York",
-   "es": "Colombia 2050 y Regulatory Lab: diálogo sobre reglas para el próximo Plan Nacional de Desarrollo. Balance final del Vicepresidente.",
-   "en": "Colombia 2050 and Regulatory Lab: dialogue on rules for the next National Development Plan. Vice President's final report."
-  },
-  {
-   "fecha": "2026-11-19",
-   "lugar": "Nueva York",
-   "es": "Algunos medios reportan reuniones hasta el jueves 19.",
-   "en": "Some outlets report meetings running until Thursday the 19th."
+   "es": "Colombia 2050 y Regulatory Lab en J.P. Morgan. Nuevos anuncios: Transferport, Patria, Éxito, Mineros, Eli Lilly. Balance final: US$43.205 M.",
+   "en": "Colombia 2050 and Regulatory Lab at J.P. Morgan. New announcements: Transferport, Patria, Éxito, Mineros, Eli Lilly. Final tally: US$43.2B."
   }
  ],
  "proximas": [
@@ -322,5 +441,8 @@
    "en": "Asia (Japan and South Korea), Middle East and Latin America — dates to be confirmed",
    "url": "https://www.valoraanalitik.com/?p=612583"
   }
- ]
+ ],
+ "empleos": 55000,
+ "sectores": 11,
+ "departamentos": 24
 }

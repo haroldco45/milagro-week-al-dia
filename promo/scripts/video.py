@@ -4,10 +4,10 @@ from comun import *
 W, H, FPS = 1080, 1920, 30
 ESC = [  # (foto, segundos, etiqueta, grande, sub, color grande, contador)
     ('foto2.jpg', 4.2, 'NUEVA YORK · 16–18 NOV 2026', 'MILAGRO WEEK', '¿Qué se anunció y qué llega de verdad a Colombia?', BLANCO, None),
-    ('foto4.jpg', 5.0, 'ANUNCIADO EN NUEVA YORK', 'US$37.350 M', 'suma de los anuncios con monto conocido, inversión y crédito', ORO2, 37350),
+    ('foto4.jpg', 5.0, 'BALANCE OFICIAL DE CIERRE', 'US$43.205 M', 'en inversión y crédito: 11 sectores, 24 departamentos', ORO2, 43205),
     ('foto8.jpg', 4.6, 'PERO OJO', 'US$21.400 M', 'son préstamos del Banco Mundial, el BID y la CAF a cuatro años', (140, 175, 255), 21400),
     ('foto6.jpg', 4.6, 'FIRMADO Y VERIFICADO HOY', 'US$0', 'Anunciar no es invertir. Seguimos cada anuncio hasta que sea obra.', (255, 123, 125), None),
-    ('foto1.jpg', 4.4, '¿Y EL BAJO CAUCA?', 'SIN ANUNCIOS', 'Ningún anuncio nombra a Caucasia ni a la subregión todavía', ORO2, None),
+    ('foto1.jpg', 4.6, '¿Y EL BAJO CAUCA?', 'SIN CONFIRMAR', 'Mineros anunció US$600 M y opera en El Bagre, pero no dijo dónde invertirá', ORO2, None),
     ('foto7.jpg', 4.4, 'USTED PUEDE PREGUNTAR', 'PETICIÓN', 'Un derecho de petición a 6 entidades, enviado de una sola vez desde la app', BLANCO, None),
 ]
 FIN = 5.5

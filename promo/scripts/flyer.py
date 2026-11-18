@@ -16,7 +16,7 @@ d.text((56,500),'MILAGRO WEEK',font=font(ANTON,148),fill=BLANCO)
 d.text((60,680),'AL DÍA',font=font(ANTON,86),fill=ORO)
 d.text((300,725),'¿Qué se anunció y qué llega de verdad?',font=font(FIRASB,34),fill=(225,230,242),anchor='lm')
 # cifras
-cajas=[('US$37.350 M','anunciados en Nueva York',ORO2),('US$21.400 M','son préstamos a 4 años',(150,182,255)),('US$0','firmado y verificado hoy',(255,123,125))]
+cajas=[('US$43.205 M','balance oficial de cierre',ORO2),('US$21.400 M','son préstamos a 4 años',(150,182,255)),('US$0','firmado y verificado hoy',(255,123,125))]
 x=50; cw=(W-100-2*20)//3
 for n,t,c in cajas:
     d.rounded_rectangle((x,795,x+cw,978),24,fill=(22,29,54),outline=(50,60,95),width=2)
