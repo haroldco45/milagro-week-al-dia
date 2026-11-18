@@ -11,14 +11,14 @@ const T = {
     nav_hoy:'Hoy', nav_anuncios:'Anuncios', nav_region:'Mi región', nav_videos:'Videos', nav_peticion:'Petición', actualizar:'Actualizar',
     hero_titulo:'Milagro Week: seguimiento al 100 %',
     hero_sub:'Nueva York, 16 al 18 de noviembre de 2026. Aquí anotamos cada anuncio, separamos el crédito de la inversión y seguimos cada peso hasta que se vuelva obra en Colombia.',
-    m_anunciado:'Anunciado por el Gobierno', m_anunciado_n:'titular oficial al 17 de noviembre', m_meta:'Lo que se fue a buscar',
+    m_anunciado:'Anunciado por el Gobierno', m_anunciado_n:'titular oficial al 17 de noviembre', m_suma_n:'suma de los {n} anuncios con monto conocido', m_meta:'Lo que se fue a buscar',
     m_credito:'De eso, préstamos de la banca multilateral', m_firmado:'Firmado y verificado hasta hoy',
     ley_cred:'Crédito multilateral', ley_priv:'Anuncios de empresas', ley_falta:'Falta frente a la meta',
     hoy_t:'Hoy', hoy_i:'Lo último que se publicó sobre la Milagro Week. Se actualiza cada vez que usted entra y el robot trae noticias nuevas cada 30 minutos.',
     buscar_ph:'Buscar en vivo: Avianca, Cerro Matoso, Antioquia…', buscar:'Buscar',
     emb_t:'Anunciar no es invertir', emb_i:'Una campanada en Nueva York es una promesa. La seguimos por cuatro pasos. Cuando un anuncio sube de paso, lo cambiamos aquí con la fuente.',
     an_t:'Los campanazos, uno por uno',
-    an_aviso:'El Vicepresidente habló de 17 campanazos. Solo 12 tenían monto público al corte. La diferencia entre la suma de esos 12 (US$32.750 M) y el titular de US$35.500 M no ha sido explicada.',
+    an_aviso:'Al corte del martes, el Vicepresidente habló de 17 campanazos y de más de US$35.500 M. Con los anuncios de la noche (Addi y el sector farmacéutico), la suma de los que tienen monto ya va en US$37.350 M. Más de la mitad son préstamos o recursos condicionados. Falta el balance oficial de cierre.',
     ci_t:'Cómo cambió la cifra', ci_i:'El tamaño del portafolio cambió varias veces antes del evento. Cada número, con su fuente.',
     ag_t:'Día por día en Nueva York',
     re_t:'¿Y a nuestra región qué le toca?', re_i:'Antioquia, Córdoba y el Bajo Cauca. Lo que se anunció con nombre propio y lo que todavía no aparece.',
@@ -51,14 +51,14 @@ const T = {
     nav_hoy:'Today', nav_anuncios:'Announcements', nav_region:'My region', nav_videos:'Videos', nav_peticion:'Petition', actualizar:'Refresh',
     hero_titulo:'Milagro Week: 100% tracking',
     hero_sub:'New York, November 16–18, 2026. We log every announcement, separate loans from investment and follow each dollar until it becomes real work in Colombia.',
-    m_anunciado:'Announced by the government', m_anunciado_n:'official headline as of November 17', m_meta:'What they went looking for',
+    m_anunciado:'Announced by the government', m_anunciado_n:'official headline as of November 17', m_suma_n:'sum of the {n} announcements with a known amount', m_meta:'What they went looking for',
     m_credito:'Of that, multilateral bank loans', m_firmado:'Signed and verified so far',
     ley_cred:'Multilateral credit', ley_priv:'Company announcements', ley_falta:'Gap to target',
     hoy_t:'Today', hoy_i:'The latest on Milagro Week. It refreshes every time you open the app, and the robot brings new stories every 30 minutes.',
     buscar_ph:'Live search: Avianca, Cerro Matoso, Antioquia…', buscar:'Search',
     emb_t:'Announcing is not investing', emb_i:'A bell ring in New York is a promise. We track it through four steps. When an announcement moves up, we update it here with the source.',
     an_t:'Every bell ring, one by one',
-    an_aviso:'The Vice President spoke of 17 bell rings. Only 12 had a public amount at the cut-off. The gap between those 12 (US$32.75B) and the US$35.5B headline has not been explained.',
+    an_aviso:'At Tuesday\'s cut-off, the Vice President spoke of 17 bell rings and over US$35.5B. With the night\'s announcements (Addi and the pharma sector), those with an amount now add up to US$37.35B. More than half are loans or conditional funds. The official closing report is still pending.',
     ci_t:'How the number changed', ci_i:'The portfolio size changed several times before the event. Every figure, with its source.',
     ag_t:'Day by day in New York',
     re_t:'What does our region get?', re_i:'Antioquia, Córdoba and Bajo Cauca. What was announced by name and what has not shown up yet.',
@@ -207,11 +207,14 @@ function pintarHero() {
     const a = D.anuncios, meta = a.meta_buscada_musd;
     const firmado = a.anuncios.filter(x => ['firmado', 'desembolsado', 'obra'].includes(x.estado)).reduce((s, x) => s + (x.musd || 0), 0);
     const cuentas = document.querySelectorAll('.marcador .cuenta');
-    cuentas[0].dataset.fin = a.titular_gobierno_musd; cuentas[1].dataset.fin = meta; cuentas[3].dataset.fin = firmado;
+    const suma = a.anuncios.reduce((s, x) => s + (x.musd || 0), 0);
+    const total = Math.max(suma, a.titular_gobierno_musd);
+    cuentas[0].dataset.fin = total;
+    document.querySelector('[data-i18n="m_anunciado_n"]').textContent = suma > a.titular_gobierno_musd ? t('m_suma_n', { n: a.anuncios.filter(x => x.musd).length }) : t('m_anunciado_n'); cuentas[1].dataset.fin = meta; cuentas[3].dataset.fin = firmado;
     const cred = a.anuncios.filter(x => x.tipo === 'multilateral').reduce((s, x) => s + (x.musd || 0), 0);
     cuentas[2].dataset.fin = cred;
     requestAnimationFrame(() => {
-      $('#bmLleno').style.width = Math.min(100, a.titular_gobierno_musd / meta * 100) + '%';
+      $('#bmLleno').style.width = Math.min(100, total / meta * 100) + '%';
       $('#bmCred').style.width = Math.min(100, cred / meta * 100) + '%';
     });
   }
