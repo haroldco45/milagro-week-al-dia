@@ -1,0 +1,58 @@
+{
+  "actualizado": "2026-11-18T04:30:00-05:00",
+  "corte": "Balance del Gobierno con corte al martes 17 de noviembre de 2026, 5:30 p.m. (La República)",
+  "meta_buscada_musd": 41900,
+  "titular_gobierno_musd": 35500,
+  "campanazos": 17,
+  "participantes": 700,
+  "proyectos_vitrina": 110,
+  "reuniones": 400,
+  "anuncios": [
+    {"id":"bm","quien":"Banco Mundial","musd":10000,"tipo":"multilateral","sector":"Financiación","region":"Nacional","estado":"anunciado","dia":"2026-11-16",
+     "nota":"Recursos que prevé prestar al sector privado colombiano en los próximos cuatro años.","note":"Funds it expects to lend to Colombia's private sector over the next four years."},
+    {"id":"bid","quien":"BID","musd":6000,"tipo":"multilateral","sector":"Financiación","region":"Nacional","estado":"anunciado","dia":"2026-11-16",
+     "nota":"Mismo horizonte de cuatro años, para proyectos privados.","note":"Same four-year horizon, for private projects."},
+    {"id":"caf","quien":"CAF","musd":5400,"tipo":"multilateral","sector":"Financiación","region":"Nacional","estado":"anunciado","dia":"2026-11-16",
+     "nota":"Mismo horizonte de cuatro años, para proyectos privados.","note":"Same four-year horizon, for private projects."},
+    {"id":"avianca","quien":"Avianca","musd":3000,"tipo":"privado","sector":"Transporte","region":"Nacional","estado":"anunciado","dia":"2026-11-16",
+     "nota":"Incorporar 61 aviones entre 2027 y 2029.","note":"Add 61 aircraft between 2027 and 2029."},
+    {"id":"anglogold","quien":"AngloGold Ashanti","musd":2500,"tipo":"privado","sector":"Minería","region":"Antioquia","lugar":"Jericó (Quebradona)","estado":"condicionado","dia":"2026-11-17",
+     "nota":"Proyecto de cobre Quebradona. Depende de los permisos ambientales.","note":"Quebradona copper project. Depends on environmental permits."},
+    {"id":"parex","quien":"Parex Resources","musd":2500,"tipo":"privado","sector":"Petróleo y gas","region":"Sin especificar","estado":"anunciado","dia":"2026-11-17",
+     "nota":"Exploración y nuevos pozos en cuatro años.","note":"Exploration and new wells over four years."},
+    {"id":"asur","quien":"Asur","musd":1500,"tipo":"privado","sector":"Aeropuertos","region":"Antioquia, Chocó, Sucre, Córdoba","lugar":"Rionegro, Quibdó, Carepa, Corozal y Montería","estado":"anunciado","dia":"2026-11-17",
+     "nota":"Hasta US$1.500 millones para cinco aeropuertos, entre ellos Montería y Carepa.","note":"Up to US$1.5 billion for five airports, including Montería and Carepa."},
+    {"id":"greenwood","quien":"Greenwood Energy","musd":1100,"tipo":"privado","sector":"Energía","region":"La Guajira","estado":"anunciado","dia":"2026-11-17",
+     "nota":"Generación eólica.","note":"Wind power generation."},
+    {"id":"plata","quien":"Grupo Plata","musd":400,"tipo":"privado","sector":"Crédito MiPyme","region":"Sin especificar","estado":"anunciado","dia":"2026-11-16",
+     "nota":"Sube de US$60 a US$400 millones para crédito a pequeños empresarios. El aumento anunciado es de US$340 millones.","note":"Raises its small-business credit line from US$60M to US$400M. The announced increase is US$340M."},
+    {"id":"oleoflores","quien":"Oleoflores","musd":200,"tipo":"privado","sector":"Agro","region":"Catatumbo","estado":"anunciado","dia":"2026-11-17",
+     "nota":"Palma de aceite para sustituir cultivos de coca.","note":"Oil palm to replace coca crops."},
+    {"id":"collective","quien":"Collective Mining","musd":100,"tipo":"privado","sector":"Minería","region":"Caldas","estado":"condicionado","dia":"2026-11-17",
+     "nota":"US$100 millones para 2027. Hasta US$1.000 millones si obtiene la licencia.","note":"US$100M for 2027. Up to US$1 billion if it gets the license."},
+    {"id":"maranon","quien":"Campo Capital y Climate Asset Management","musd":50,"tipo":"privado","sector":"Agro","region":"Vichada","lugar":"La Primavera","estado":"anunciado","dia":"2026-11-17",
+     "nota":"Proyecto agroforestal de marañón.","note":"Cashew agroforestry project."},
+    {"id":"cerromatoso","quien":"Cerro Matoso (CoreX)","musd":null,"tipo":"privado","sector":"Minería","region":"Córdoba","lugar":"Montelíbano","estado":"sin-monto","dia":"2026-11-16",
+     "nota":"Plan Destrabe del Gobierno con CoreX. No se divulgó monto.","note":"Government 'unblock' plan with CoreX. No amount disclosed."},
+    {"id":"puerto","quien":"Grupo de Robert Yüksel Yıldırım","musd":null,"tipo":"privado","sector":"Puertos","region":"Bolívar","lugar":"Cartagena","estado":"sin-monto","dia":"2026-11-17",
+     "nota":"Dijo que explora un posible puerto en Cartagena. Sin monto.","note":"Said it is exploring a possible port in Cartagena. No amount."}
+  ],
+  "cifras": [
+    {"fecha":"2026-09-28","es":"El Gobierno anuncia la Milagro Week con un portafolio de $75 billones de pesos.","en":"The government announces Milagro Week with a COP 75 trillion portfolio.","fuente":"Valora Analitik","url":"https://www.valoraanalitik.com/?p=614972"},
+    {"fecha":"2026-10-20","es":"La agenda oficial habla de 86 proyectos por US$56.799 millones.","en":"The official agenda lists 86 projects worth US$56.8 billion.","fuente":"Minuto30","url":"https://www.minuto30.com/milagro-week-nueva-york-86-proyectos/1723163/"},
+    {"fecha":"2026-11-10","es":"De 250 propuestas, 133 se publican y 97 reciben citas: buscan US$41.900 millones.","en":"Of 250 proposals, 133 are published and 97 get meetings: they seek US$41.9 billion.","fuente":"El Tiempo","url":"https://www.eltiempo.com/politica/gobierno/gobierno-de-de-la-espriella-alista-la-milagro-week-en-nueva-york-llevara-97-proyectos-que-buscan-inversiones-por-41-900-millones-de-dolares-3599898"},
+    {"fecha":"2026-11-10","es":"La Silla Vacía revisa las fichas de 132 proyectos en el portal reservado para inversionistas.","en":"La Silla Vacía reviews 132 project files on the investor-only portal.","fuente":"La Silla Vacía","url":"https://www.lasillavacia.com/silla-nacional/correccion-ahora-si-la-lista-completa-de-los-132-proyectos-de-la-milagro-week/"},
+    {"fecha":"2026-11-16","es":"Primer día: el Vicepresidente reporta US$25.900 millones (21.400 de banca multilateral y 4.500 de empresas).","en":"Day one: the Vice President reports US$25.9 billion (21.4 from multilateral banks, 4.5 from companies).","fuente":"El Heraldo","url":"https://www.elheraldo.co/colombia/2026/11/17/milagro-week-avances-por-25900-millones-de-dolares-para-financiar-inversion-privada-en-colombia/"},
+    {"fecha":"2026-11-17","es":"Corte de las 5:30 p.m.: 12 anuncios con monto suman US$32.750 millones; el titular habla de más de US$35.500 millones.","en":"5:30 p.m. cut-off: 12 announcements with amounts add up to US$32.75 billion; the headline says over US$35.5 billion.","fuente":"La República","url":"https://www.larepublica.co/empresas/milagro-week-ya-suma-mas-de-us-35-500-millones-en-anuncios-de-inversion-y-credito-4526773"}
+  ],
+  "agenda": [
+    {"fecha":"2026-11-16","lugar":"Citi, Nueva York","es":"Apertura con mensaje del presidente De la Espriella y panel 'Why Colombia, Why Now'. Primeros campanazos.","en":"Opening with a message from President De la Espriella and the 'Why Colombia, Why Now' panel. First bell rings."},
+    {"fecha":"2026-11-17","lugar":"Citi, Nueva York","es":"Milagro Deal Day: reuniones uno a uno en cuatro salas de negocio con J.P. Morgan (infraestructura y transporte), Citi (energía, petróleo, gas y minería), Atlantic Council (tecnología) y la Cámara de Comercio de EE. UU.","en":"Milagro Deal Day: one-on-one meetings in four deal rooms with J.P. Morgan (infrastructure and transport), Citi (energy, oil, gas and mining), the Atlantic Council (technology) and the U.S. Chamber of Commerce."},
+    {"fecha":"2026-11-18","lugar":"J.P. Morgan, Nueva York","es":"Colombia 2050 y Regulatory Lab: diálogo sobre reglas para el próximo Plan Nacional de Desarrollo. Balance final del Vicepresidente.","en":"Colombia 2050 and Regulatory Lab: dialogue on rules for the next National Development Plan. Vice President's final report."},
+    {"fecha":"2026-11-19","lugar":"Nueva York","es":"Algunos medios reportan reuniones hasta el jueves 19.","en":"Some outlets report meetings running until Thursday the 19th."}
+  ],
+  "proximas": [
+    {"es":"Madrid, España — marzo de 2027","en":"Madrid, Spain — March 2027","url":"https://www.valoraanalitik.com/?p=621178"},
+    {"es":"Asia (Japón y Corea del Sur), Oriente Próximo y América Latina — fechas por confirmar","en":"Asia (Japan and South Korea), Middle East and Latin America — dates to be confirmed","url":"https://www.valoraanalitik.com/?p=612583"}
+  ]
+}
