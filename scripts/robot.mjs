@@ -133,21 +133,31 @@ async function main() {
   await portada(items);
 }
 
+// Una foto real tiene pocos píxeles blancos planos; las infografías y tablas tienen muchos
+async function esFoto(sharp, buf) {
+  const { data, info } = await sharp(buf).resize(64, 64, { fit: 'fill' }).removeAlpha().raw().toBuffer({ resolveWithObject: true });
+  let blancos = 0, total = info.width * info.height;
+  for (let i = 0; i < data.length; i += 3) if (data[i] > 235 && data[i + 1] > 235 && data[i + 2] > 235) blancos++;
+  const { width, height } = await sharp(buf).metadata();
+  return blancos / total < 0.18 && width >= 500 && height >= 280;
+}
+
 // Imagen de vista previa (la que sale al compartir el enlace) con foto real
 async function portada(items) {
   let sharp;
   try { sharp = (await import('sharp')).default; } catch { console.log('sin sharp, no se rehace portada'); return; }
   let meta = {};
   try { meta = JSON.parse(await readFile('data/portada.json', 'utf8')); } catch {}
-  const candidatas = items.filter(i => i.imagen).slice(0, 8);
+  const candidatas = items.filter(i => i.imagen && !/infograf|grafic|logo|banner/i.test(i.imagen)).slice(0, 12);
   for (const c of candidatas) {
     if (meta.imagen === c.imagen) return; // ya está al día
     try {
       const buf = Buffer.from(await (await traer(c.imagen, 15000)).arrayBuffer());
+      if (!(await esFoto(sharp, buf))) { console.log('descarto (parece gráfico):', c.imagen); continue; }
       const base = sharp(buf).resize(1200, 630, { fit: 'cover', position: 'attention' });
       const capa = Buffer.from(`<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
         <defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0.35" stop-color="#0b1020" stop-opacity="0"/><stop offset="1" stop-color="#0b1020" stop-opacity="0.92"/></linearGradient></defs>
+          <stop offset="0.25" stop-color="#0b1020" stop-opacity="0.05"/><stop offset="1" stop-color="#0b1020" stop-opacity="0.95"/></linearGradient></defs>
         <rect width="1200" height="630" fill="url(#g)"/>
         <rect x="60" y="440" width="12" height="130" fill="#f5b700"/>
         <text x="96" y="500" font-family="DejaVu Sans, Arial" font-weight="700" font-size="64" fill="#ffffff">Milagro Week al Día</text>
