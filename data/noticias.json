@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-27T04:55:01.091Z",
+ "actualizado": "2026-11-27T14:53:55.257Z",
  "items": [
   {
    "titulo": "El silencio del vicepresidente frente a los miles de colombianos indocumentados que no mencionó en la Milagro Week",
@@ -8,6 +8,13 @@
    "fecha": "2026-11-26T21:28:29.000Z",
    "imagen": "",
    "_intentado": true
+  },
+  {
+   "titulo": "El Editorial | La Milagro Week confirma que Colombia está de regreso",
+   "url": "https://www.elheraldo.co/editoriales/2026/11/27/el-editorial-la-milagro-week-confirma-que-colombia-esta-de-regreso/",
+   "fuente": "El Heraldo",
+   "fecha": "2026-11-26T16:00:00.000Z",
+   "imagen": "https://www.elheraldo.co/resizer/v2/YWAN7TACCZEBZIKQ5NYCLLUIPU.jpeg?smart=true&auth=20006ca3595c569a2c5b781f4d6b35fca1091ea5fe6f84012f22fba0e1439745&width=1200&height=675"
   },
   {
    "titulo": "¿Milagro Week o Milagro Weak?",
@@ -91,6 +98,14 @@
    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQVHo0YVlFRFhQRFVXYVVYRWF2M1Bhdm4zZkY1OUlQc3RFMlZ1aDNycE02T25oTTZGVU4yX2hmWG5TY1NmTkhaaEliYTBxSXI1b3dCTmtfaXZSb3NJQ0phYl9ZbVlfMDAxQWdaOVRGTl9malBhekxvREVCUDZwVzNsanI0aFhEcm1JdkZvQ0JXdDYyU3ViLUd1MUt2ZlpIWVhCd2RZenk3U19YYnU2S2J3Y0NCTlExQ2_SAcsBQVVfeXFMUHJ5N2x2bGNyakMyRm9qeks1d3p2MVFpMHNURHgwMEdNRklfX3N0N0p3aG9WTDRDeWNZUi1aSWUzbXJxM05OcElzODZSMVRTdmlaQUo1WklhdnJGNk1xTXpNSEpKeVJ6X0hPSy1UTjU2V3lueld2dURLZHFsMVM2dGVVb0JrWEpuLWdBZi1tWk1QREVCX0F2bGZHUHdrU2pkWWc3dlNZR1VEV25KVjhTOHplYW1GVDVtd2tobkY3dk1DM1hESm1rQ1FMdVU?oc=5&hl=es-419&gl=US&ceid=US:es-419",
    "fuente": "Caracol Radio",
    "fecha": "2026-11-24T21:23:46.000Z",
+   "imagen": "",
+   "_intentado": true
+  },
+  {
+   "titulo": "Puerto Progreso captó interés de inversión en Milagro Week por más de US$2.200 millones",
+   "url": "https://www.msn.com/es-co/noticias/otras/puerto-progreso-capt%C3%B3-inter%C3%A9s-de-inversi%C3%B3n-en-milagro-week-por-m%C3%A1s-de-us-2200-millones/ar-AA2iamPh",
+   "fuente": "La República on MSN",
+   "fecha": "2026-11-24T17:19:41.000Z",
    "imagen": "",
    "_intentado": true
   },
@@ -1920,22 +1935,6 @@
    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQXkxTndicUI3eWFzNTFJWGs5TUZMNVI5TkgyejFFSGt3Q1E4RHZIdnF3V005aS02NUkyYkV2bmg2dW0zdHhLOElEMnRmSDU2Y2VTYXN4SS14LVFKeHpLNGNoSV80bThkakFyOHk0Qk4tS0cwLVRLRlBjYmFDN3UxUHM3UGJKMmk2dTJuRWZFM0NUTEZ4dHFJN2dUenFXV29vbDFQMXZvZlpkQmvSAbABQVVfeXFMUFk0QUVpOHhfM0JGRGtKM1dEbVJvUVU3dERIMldoakVtNTZ3azhDTnNpa25nWVBOa0hxd3FsOGlHeGNXMmU1RE4xQWVza0N1eXlOXzVrZExoelFVTGY2ZHoxQzgtS1dsOWd2N1Z2Wlh4WWlTdkZwS3JnTW91QlBFVjJfMWU5elQya3FGNnRmc0VlaG12RE1fNGUzQ2psdUlHbzE5OVJIeXlhLTAyNTdRNzc?oc=5&hl=es-419&gl=US&ceid=US:es-419",
    "fuente": "Pulzo",
    "fecha": "2026-11-16T17:22:47.000Z",
-   "imagen": "",
-   "_intentado": true
-  },
-  {
-   "titulo": "El Tolima impulsa proyectos estratégicos en Milagro Week de Nueva York para atraer inversión extranjera",
-   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPZ2dZTEs3bHBoMm5McFJ2T09NZC1FREc3LWUyQ3BlRU9lSzRXdndyeURVMWR0d1Z0NGI3M1BJZnU4S2U1QnViTUwyNGRqNkdQVkNtN0hYQU1RQWVROWFmMnZDNzhCemZJQWo2N1h5Sk9jMG1sN2tYVGN5LWlmeG5GZi0xNU5qQUtrcmNhOHNTaWpaNHgyRzFoTzZ2WXZjWlp0eG8tNHprZUJwZkNOaVhpS251cndRQkFyd0w0dGwyalJoLWg0MjNMSWNR0gHPAUFVX3lxTE5zdmNWcGZBeC0zMldRRnJBNFJ1dmxwWEkxbnpWQUoxb2Y0eHVwbGJmT3F6dmtyMjREN1RVY1hKQ0RrZmFrcVY4ZXdOS1RKTUZWUEFPUVN1NElFS1ZCcXZRYVRFMzFxY3lfSzR6X2o1QVlscFF2TzJpSUtBZElOTHlJenJLQkhjR2ZHRHdja1hQamlHT3ZnT2ZWTkhCdmpTVXJQZk1oNFJINjVZdWV3Rm1hNElGX2tVN0IxM2dpbjVuMk5ZMWxNeE1Fc19pUGp4Zw?oc=5&hl=es-419&gl=US&ceid=US:es-419",
-   "fuente": "Pulzo",
-   "fecha": "2026-11-16T16:51:24.000Z",
-   "imagen": "",
-   "_intentado": true
-  },
-  {
-   "titulo": "Inicia la Milagro Week: 97 proyectos buscan en Nueva York US$41.900 millones de inversión y financiación",
-   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNdjlLVWRuYTV0Yk5qZHc1NURTTkNyaWpqeUJnc3JMLU5ERGRmRnpDaGNrX21abXZDZ1pKMUx3amp4aXhSenpDNkw4NmxnRVpTcjU0WDlPSmp4bWRKT0NjdmpqSXhfODZPQThDQkxXT1R3ZnYwY2UtRG9tWUxhdUMwM2RKai1YbWNKQUtqVlJsV2NoS21kdkZWRXJYQk1fOTJMazRNb2lMRHpuMWtuUC03SG1BaDY4UnpQOVdfWkVxLTJ4Y3pMaF84ZGtDY1JjU1pBdkVxdl9ueVE2UGY0RjROQWJ5LW5SZlpibkNz0gHwAUFVX3lxTFBRdTNmRGN1MWpKWHRLb2JkQkh6Vms0M2hobUQ0YVJyRFNyWWtCeUZWYnFZR2EwczJQcVhvdzlWSnY4TE5fUVdoYTR2T2NVczBDcnVQb2xlZS04YlhOaGVMXzFGNUFPZHFFbkFzMDlwNi04bUwyZ09iZzQ5aUMtc1VjY2RsWS05MS14eXZvdUhPaUpUNUwtN25zYk5aSFlQWjF5UTJKUTBDeWZiLWtIZF9jc3h4aXRZZDNsWG42MWRBZmMtN1R3MWJBSGRORzR1NWgycEpVZmFrckVPdGZWT00zUzE5ZXVYNGp2NnI4V3d2Vw?oc=5&hl=es-419&gl=US&ceid=US:es-419",
-   "fuente": "Portafolio.co",
-   "fecha": "2026-11-16T16:24:06.000Z",
    "imagen": "",
    "_intentado": true
   }
